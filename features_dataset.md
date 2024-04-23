@@ -20,16 +20,16 @@ El conjunto de datos "cleaned-reviews.csv" parece ser una versión limpia y modi
 # customer_airways_data.csv
 | # | Columna | Descripción |
 | --- | --- | --- |
-|1| Num_passengers | Cantidad de pasajeros que viajaron|
-|2| Sales_channel | Canal de venta por el cual fue realizada la reserva. `Internet`, `Mobile`|
-|3| Trip_type | Puede ser ``Round Trip`` (ida y vuelta), ``One way`` (solo ida) o ``Circle trip`` (secuencia de tramos)|
-|4| Purchase_lead | Número de días entre el momento de la reserva y el momento del viaje |
-|5| Lenght_of_stay | Número de días en el destino antes del regreso.|
-|6| Flight_hour | Horario de partida del vuelo.|
-|7| Flight_day | Dia de la semana de partida del vuelo.|
-|8| Route | Destino.|
-|9| Booking_origin | País desde donde se realizó la reserva.|
-|10| Wants_extra_bags | Si el cliente solicitó equipaje extra al hacer la reserva. Si (1) o no (0).|
+|1| num_passengers | Cantidad de pasajeros que viajaron|
+|2| sales_channel | Canal de venta por el cual fue realizada la reserva. `Internet`, `Mobile`|
+|3| trip_type | Puede ser ``Round Trip`` (ida y vuelta), ``One way`` (solo ida) o ``Circle trip`` (secuencia de tramos)|
+|4| purchase_lead | Número de días entre el momento de la reserva y el momento del viaje |
+|5| length_of_stay | Número de días en el destino antes del regreso.|
+|6| flight_hour | Horario de partida del vuelo.|
+|7| flight_day | Dia de la semana de partida del vuelo.|
+|8| route | Destino.|
+|9| booking_origin | País desde donde se realizó la reserva.|
+|10| wants_extra_baggage | Si el cliente solicitó equipaje extra al hacer la reserva. Si (1) o no (0).|
 |11| wants_preferred_seat | Es una columna binaria que indica si el pasajero desea un asiento preferencial (1) o no (0).|
 |12| wants_in_flight_meals | Es una columna binaria que indica si el pasajero desea comidas durante el vuelo (1) o no (0) |
 |13| flight_duration | Representa la duración del vuelo en horas. |
